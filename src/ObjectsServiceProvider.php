@@ -1,6 +1,6 @@
 <?php
 
-namespace AndrewNovikof\Objects\Traits;
+namespace AndrewNovikof\Objects;
 
 use Illuminate\Support\ServiceProvider;
 
