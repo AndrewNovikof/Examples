@@ -20,7 +20,7 @@ You can publish the config file with:
 php artisan vendor:publish --provider="AndrewNovikof\Objects\ObjectsServiceProvider" --tag="config"
 ```
 
-### 4. Config
+### 4. Example objects
 
 You can publish the Example objects files with:
 
