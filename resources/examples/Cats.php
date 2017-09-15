@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Examples;
 
-use Objects\Factories\AbstractFactory;
+use AndrewNovikof\Objects\Factories\AbstractFactory;
 
 /**
  * Class Cats

@@ -1,6 +1,6 @@
 <?php
 
-namespace Objects\Traits;
+namespace AndrewNovikof\Objects\Traits;
 
 trait ObjectsTrait
 {

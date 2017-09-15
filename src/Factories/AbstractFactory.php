@@ -1,9 +1,9 @@
 <?php
 
-namespace Objects\Factories;
+namespace AndrewNovikof\Objects\Factories;
 
-use Objects\Interfaces\ObjectsInterface;
-use Objects\Traits\ObjectsTrait;
+use AndrewNovikof\Objects\Interfaces\ObjectsInterface;
+use AndrewNovikof\Objects\Traits\ObjectsTrait;
 
 /**
  * Class AbstractFactory

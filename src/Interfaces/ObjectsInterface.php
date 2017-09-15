@@ -1,6 +1,6 @@
 <?php
 
-namespace Objects\Interfaces;
+namespace AndrewNovikof\Objects\Interfaces;
 
 /**
  * Interface ObjectsInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace Objects;
+namespace AndrewNovikof\Objects\Traits;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,6 +21,11 @@ class ObjectsServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__ . '/../resources/config/objects.php' => $this->app->configPath() . '/' . 'objects.php',
             ], 'config');
+
+            $this->publishes([
+                __DIR__ . '/../resources/examples/Cats.php' => $this->app->basePath() . '/Examples/Cats.php',
+                __DIR__ . '/../resources/examples/Dogs.php' => $this->app->basePath() . '/Examples/Dogs.php',
+            ], 'objects');
         }
     }
 

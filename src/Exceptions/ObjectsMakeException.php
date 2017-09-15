@@ -1,6 +1,6 @@
 <?php
 
-namespace Objects\Exceptions;
+namespace AndrewNovikof\Objects\Exceptions;
 
 class ObjectsMakeException
 {

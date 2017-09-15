@@ -1,6 +1,6 @@
 <?php
 
-namespace Objects\Facades;
+namespace AndrewNovikof\Objects\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Objects\Interfaces\ObjectsInterface;
