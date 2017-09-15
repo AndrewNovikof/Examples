@@ -3,7 +3,7 @@
 namespace AndrewNovikof\Objects\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Objects\Interfaces\ObjectsInterface;
+use AndrewNovikof\Objects\Interfaces\ObjectsInterface;
 
 class Objects extends Facade
 {
