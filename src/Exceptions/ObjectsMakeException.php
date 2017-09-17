@@ -5,6 +5,15 @@ namespace AndrewNovikof\Objects\Exceptions;
 class ObjectsMakeException extends \Exception
 {
     /**
+     * @param string $configName
+     * @return static
+     */
+    public static function badConfig(string $configName)
+    {
+        return new static("Name `{$configName}` not found in config file.");
+    }
+
+    /**
      * @param string $className
      * @return static
      */

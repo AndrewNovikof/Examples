@@ -10,13 +10,16 @@ class ObjectsService
     /**
      * Create a new Object instance.
      *
-     * @param string $objectName
+     * @param string $configName
      * @return string
      * @throws ObjectsMakeException
      */
-    public function make(string $objectName)
+    public function make(string $configName)
     {
-        $objectsConfig = Config::get("objects.$objectName");
+        if (!$objectsConfig = Config::get("objects.$configName")) {
+            throw ObjectsMakeException::badConfig($configName);
+        };
+
         $object = $this->getObject($objectsConfig);
         $this->invokeMethods($object, $objectsConfig);
         return $object;
