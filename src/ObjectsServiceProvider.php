@@ -40,5 +40,6 @@ class ObjectsServiceProvider extends ServiceProvider
             __DIR__.'/../resources/config/objects.php',
             'config'
         );
+        $this->app->alias('objects', ObjectsService::class);
     }
 }

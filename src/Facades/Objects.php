@@ -12,6 +12,6 @@ class Objects extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return ObjectsInterface::class;
+        return 'objects';
     }
 }

@@ -12,15 +12,4 @@ use AndrewNovikof\Objects\Traits\ObjectsTrait;
 abstract class AbstractFactory implements ObjectsInterface
 {
     use ObjectsTrait;
-
-    /**
-     * Create a new Object instance.
-     *
-     * @param string $data
-     * @return string
-     */
-    public function make(string $data)
-    {
-        return 'ok';
-    }
 }

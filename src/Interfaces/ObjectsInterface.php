@@ -12,4 +12,9 @@ interface ObjectsInterface
      * Return age of the Object
      */
     public function age();
+
+    /**
+     * Return ClassName
+     */
+    public function class();
 }
