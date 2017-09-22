@@ -23,8 +23,8 @@ class ObjectsServiceProvider extends ServiceProvider
             ], 'config');
 
             $this->publishes([
-                __DIR__ . '/../resources/examples/Cats.php' => $this->app->basePath() . '/App/Examples/Cats.php',
-                __DIR__ . '/../resources/examples/Dogs.php' => $this->app->basePath() . '/App/Examples/Dogs.php',
+                __DIR__ . '/../resources/examples/Cats.php' => $this->app->basePath() . '/app/Examples/Cats.php',
+                __DIR__ . '/../resources/examples/Dogs.php' => $this->app->basePath() . '/app/Examples/Dogs.php',
             ], 'objects');
         }
     }
