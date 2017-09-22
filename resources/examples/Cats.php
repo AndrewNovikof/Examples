@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Examples;
+namespace App\Examples;
 
 use AndrewNovikof\Objects\Factories\AbstractFactory;
 
